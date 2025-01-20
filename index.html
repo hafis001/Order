@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Order Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/three@0.138.0/build/three.min.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>Order Management Dashboard</h1>
+        </header>
+        <div class="order-cards">
+            <div class="order-card" id="totalOrders">
+                <div class="order-info">
+                    <h2>Total Orders</h2>
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="order-card" id="pendingOrders">
+                <div class="order-info">
+                    <h2>Pending Orders</h2>
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="order-card" id="orderPlaced">
+                <div class="order-info">
+                    <h2>Order Placed</h2>
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="order-card" id="confirmedOrders">
+                <div class="order-info">
+                    <h2>Confirmed Orders</h2>
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="order-card" id="processedOrders">
+                <div class="order-info">
+                    <h2>Processed Orders</h2>
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="order-card" id="shippedOrders">
+                <div class="order-info">
+                    <h2>Shipped Orders</h2>
+                    <p>0</p>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <button id="updateButton">Update Order Counts</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
